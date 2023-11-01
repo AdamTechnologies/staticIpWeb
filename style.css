@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&family=Prompt:wght@300&family=Rajdhani:wght@700&display=swap');
+.bdyColor {
+    background: linear-gradient(90deg, rgba(63, 30, 90, 0.9) 20%, rgba(33, 43, 85, 0.9) 90%);
+    height: 90vh; /* Set the height to cover the entire viewport */
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 95%;
+}
+
+.bgCol{
+    background-image: url('images/anima.gif'); /* Set anima.gif as the background image */
+    background-size: cover; /* Adjust background size as needed */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    margin-top: 100px;
+}
+
+.carousel-item {
+    color: white; /* Text color */
+    padding: 75px;
+}
+.txtColor{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 120px;
+    /* border-bottom: 1px solid rgb(126, 0, 180); */
+    /* margin-top: 50px; */
+}
+.txtColorP{
+    color: rgb(254, 255, 223);
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 0px;
+    font-size: 14px;
+    /* margin-top: 50px; */
+}
+.subHead{
+    color: rgb(254, 255, 223);
+    /* border-bottom: 1px solid rgb(254, 255, 223) ; */
+
+}
+
+.subHead2{
+    font-size: 100px;
+    color: rgb(254, 255, 223);
+
+}
+.carousel{
+    border: 2px solid white !important;
+    border-radius: 50%;
+    height: 400px;
+}
+.carousel-item-Head{
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+.slogan{
+    color:'#fefede' !important;
+}
