@@ -158,4 +158,8 @@
     .carousel{
         height: 375px;
     }
+    .carousel-indicators [data-bs-target] {
+    margin-bottom: 0px !important;
+
+    }
   }
