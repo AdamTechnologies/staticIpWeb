@@ -66,7 +66,7 @@
     8px 8px 0 0 #1a629c,
     12px 12px 0 0 #15568d,
     16px 16px 0 0 #114a7e;
-    height: 400px;
+    height: 450px;
 }
 .input-group{
     margin-top: 4px !important;
@@ -115,7 +115,7 @@
     width: 10px !important;
     height: 3px;
     padding: 0;
-    margin-bottom: 10px !important;
+    margin-bottom: 30px !important;
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
@@ -154,5 +154,8 @@
     }
     .submitButton{
         margin-left: 100px;
+    }
+    .carousel{
+        height: 375px;
     }
   }

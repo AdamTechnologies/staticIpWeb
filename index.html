@@ -15,11 +15,11 @@
     <div class="row">
         <div class="col-sm-8">
           <h1 class="py-4 px-4 txtColor">ADAM’s B2B Expertize</h1>
-          <h3 class="px-4 subHead"><u> Welcome to the </u> </h3>
+          <h3 class="px-4 subHead2">Welcome to the </h3>
           <h3 class="px-4 subHead2"> World’s largest 
-          <br>Professional
-          <br>Service hub</h3>
-          <p class="txtColorP px-4">Your one-stop solution for finance, claims settlement, auditing, legal consultation, private notary and international arbitration. <br> Access our services across the globe, as they are covered in 192 countries.</p>
+          <br>Professional Service hub
+          </h3>
+          <p class="txtColorP px-4">Your one-stop solution for finance, claims settlement, auditing, legal consultation, private notary and international arbitration. <br> Access our services across the globe, they presence in 192 countries.</p>
           <!-- <p class="txtColorP px-4">Access our services across the globe, as they are covered in 192 countries.</p> -->
         </div>
 
@@ -61,6 +61,11 @@
                             <span class="input-group-text">**</span>
                         </div>
 
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="smartTokenInput1" placeholder="Smart token">
+                            <span class="input-group-text text-success" data-bs-toggle="modal" data-bs-target="#myModal1" onclick="generateSmartToken1()">Generate</span>
+                        </div> 
+
                         <div class="submitButton ">
                             <table width="100%">
                                 <tr>
@@ -72,7 +77,7 @@
                 </div>
 
                   <div class="carousel-item">
-                    <h4 class="carousel-item-Head">CLAIMS SETTLEMENT</h4>
+                    <h4 class="carousel-item-Head">ADAM CLAIMS SETTLEMENT</h4>
                     <form action="/action_page.php">
                         <!-- <label for="sel1" class="form-label">Select your type</label> -->
                         <select class="form-select" id="sel1" name="sellist1">
@@ -92,6 +97,45 @@
                             <input type="password" class="form-control" placeholder="Password">
                             <span class="input-group-text">**</span>
                         </div>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="smartTokenInput2" placeholder="Smart token">
+                            <span class="input-group-text text-success" data-bs-toggle="modal" data-bs-target="#myModal1" onclick="generateSmartToken2()">Generate</span>
+                        </div> 
+                        <div class="submitButton ">
+                            <table width="100%">
+                                <tr>
+                                    <td align="right"><div class="sbButton" data-bs-toggle="modal" data-bs-target="#myModal">SUBMIT</div></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </form>
+                  </div>
+
+                  <div class="carousel-item">
+                    <h4 class="carousel-item-Head">AUDITORS</h4>
+                    <form action="/action_page.php">
+                        <!-- <label for="sel1" class="form-label">Select your type</label> -->
+                        <select class="form-select" id="sel1" name="sellist1">
+                         <option>Select your employee type</option>
+                          <option>Employee</option>
+                          <option>Agent</option>
+                          <option>Partner</option>
+                          <option>Client</option>
+                        </select>
+
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="User name">
+                            <span class="input-group-text">@</span>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="password" class="form-control" placeholder="Password">
+                            <span class="input-group-text">**</span>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="smartTokenInput3" placeholder="Smart token">
+                            <span class="input-group-text text-success" data-bs-toggle="modal" data-bs-target="#myModal1" onclick="generateSmartToken3()">Generate</span>
+                        </div> 
 
                         <div class="submitButton ">
                             <table width="100%">
@@ -104,7 +148,7 @@
                   </div>
 
                   <div class="carousel-item">
-                    <h4 class="carousel-item-Head">ADAM AUDITORS</h4>
+                    <h4 class="carousel-item-Head">ADAM ADVOCATES & LEGAL CONSULTANTS</h4>
                     <form action="/action_page.php">
                         <!-- <label for="sel1" class="form-label">Select your type</label> -->
                         <select class="form-select" id="sel1" name="sellist1">
@@ -125,37 +169,10 @@
                             <span class="input-group-text">**</span>
                         </div>
 
-                        <div class="submitButton ">
-                            <table width="100%">
-                                <tr>
-                                    <td align="right"><div class="sbButton" data-bs-toggle="modal" data-bs-target="#myModal">SUBMIT</div></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </form>
-                  </div>
-
-                  <div class="carousel-item">
-                    <h4 class="carousel-item-Head">LEGAL CONSULTANTS</h4>
-                    <form action="/action_page.php">
-                        <!-- <label for="sel1" class="form-label">Select your type</label> -->
-                        <select class="form-select" id="sel1" name="sellist1">
-                         <option>Select your employee type</option>
-                          <option>Employee</option>
-                          <option>Agent</option>
-                          <option>Partner</option>
-                          <option>Client</option>
-                        </select>
-
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="User name">
-                            <span class="input-group-text">@</span>
-                        </div>
-
-                        <div class="input-group">
-                            <input type="password" class="form-control" placeholder="Password">
-                            <span class="input-group-text">**</span>
-                        </div>
+                            <input type="password" class="form-control" id="smartTokenInput4" placeholder="Smart token">
+                            <span class="input-group-text text-success" data-bs-toggle="modal" data-bs-target="#myModal1" onclick="generateSmartToken4()">Generate</span>
+                        </div> 
 
                         <div class="submitButton ">
                             <table width="100%">
@@ -188,6 +205,11 @@
                             <input type="password" class="form-control" placeholder="Password">
                             <span class="input-group-text">**</span>
                         </div>
+
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="smartTokenInput5" placeholder="Smart token">
+                            <span class="input-group-text text-success" data-bs-toggle="modal" data-bs-target="#myModal1" onclick="generateSmartToken5()">Generate</span>
+                        </div> 
 
                         <div class="submitButton ">
                             <table width="100%">
@@ -222,6 +244,11 @@
                             <span class="input-group-text">**</span>
                         </div>
 
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="smartTokenInput6" placeholder="Smart token">
+                            <span class="input-group-text text-success" data-bs-toggle="modal" data-bs-target="#myModal1" onclick="generateSmartToken6()">Generate</span>
+                        </div>   
+
                         <div class="submitButton ">
                             <table width="100%">
                                 <tr>
@@ -255,6 +282,11 @@
                             <span class="input-group-text">**</span>
                         </div>
 
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="smartTokenInput7" placeholder="Smart token">
+                            <span class="input-group-text text-success" data-bs-toggle="modal" data-bs-target="#myModal1" onclick="generateSmartToken7()">Generate</span>
+                        </div>   
+                        
                         <div class="submitButton ">
                             <table width="100%">
                                 <tr>
@@ -286,6 +318,11 @@
                             <input type="password" class="form-control" placeholder="Password">
                             <span class="input-group-text">**</span>
                         </div>
+
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="smartTokenInput8" placeholder="Smart token">
+                            <span class="input-group-text text-success" data-bs-toggle="modal" data-bs-target="#myModal1" onclick="generateSmartToken8()">Generate</span>
+                        </div>                        
 
                         <div class="submitButton ">
                             <table width="100%">
@@ -347,7 +384,106 @@
     </div>
   </div>
   
+  <div class="modal fade" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
   
+        <!-- Modal Header -->
+        <!-- <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div> -->
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+         <table width="100%">
+            <tr>
+                <td align="center">
+                    <!-- <img src="https://adamtechnologies.github.io/staticIpWeb/images/alertClose.png" > -->
+                    <h1 class="text-success">
+                        Smart token susseccfully created
+                    </h1>
+                    <h5>After login will send it in your email</h5><br>
+                </td>
+            </tr>
+         </table>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
 
+        </div>
+  
+        <!-- Modal footer -->
+
+  
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    function generateSmartToken8() {
+        // Get the input element by its id
+        var inputElement = document.getElementById("smartTokenInput8");
+    
+        // Set the value of the input
+        inputElement.value = "@W45*&^%8545121662000E";
+    }
+
+    function generateSmartToken7() {
+        // Get the input element by its id
+        var inputElement = document.getElementById("smartTokenInput7");
+    
+        // Set the value of the input
+        inputElement.value = "@W45*&^%8545121662000E";
+    }
+
+    function generateSmartToken6() {
+        // Get the input element by its id
+        var inputElement = document.getElementById("smartTokenInput6");
+    
+        // Set the value of the input
+        inputElement.value = "@W45*&^%8545121662000E";
+    }
+
+    function generateSmartToken5() {
+        // Get the input element by its id
+        var inputElement = document.getElementById("smartTokenInput5");
+    
+        // Set the value of the input
+        inputElement.value = "@W45*&^%8545121662000E";
+    }
+
+    function generateSmartToken4() {
+        // Get the input element by its id
+        var inputElement = document.getElementById("smartTokenInput4");
+    
+        // Set the value of the input
+        inputElement.value = "@W45*&^%8545121662000E";
+    }
+
+    function generateSmartToken3() {
+        // Get the input element by its id
+        var inputElement = document.getElementById("smartTokenInput3");
+    
+        // Set the value of the input
+        inputElement.value = "@W45*&^%8545121662000E";
+    }
+
+    function generateSmartToken2() {
+        // Get the input element by its id
+        var inputElement = document.getElementById("smartTokenInput2");
+    
+        // Set the value of the input
+        inputElement.value = "@W45*&^%8545121662000E";
+    }
+
+    function generateSmartToken1() {
+        // Get the input element by its id
+        var inputElement = document.getElementById("smartTokenInput1");
+    
+        // Set the value of the input
+        inputElement.value = "@W45*&^%8545121662000E";
+    }
+    </script>
 </body>
 </html>
