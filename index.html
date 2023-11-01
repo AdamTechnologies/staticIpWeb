@@ -14,10 +14,13 @@
 <body class="bdyColor">
     <div class="row">
         <div class="col-sm-8">
-          <h1 class="py-4 px-4 txtColor">B2B Expertise</h1>
-          <h3 class="px-4 subHead"><u> Welcome to</u> </h3>
-          <h3 class="px-4 subHead2">Professional Services Hub</h3>
-          <p class="txtColorP px-4">Your one-stop solution for finance, claims settlement, auditing, legal consultation, private notary, and international arbitration.</p>
+          <h1 class="py-4 px-4 txtColor">ADAM’s B2B Expertize</h1>
+          <h3 class="px-4 subHead"><u> Welcome to the </u> </h3>
+          <h3 class="px-4 subHead2"> World’s largest 
+          <br>Professional
+          <br>Service hub</h3>
+          <p class="txtColorP px-4">Your one-stop solution for finance, claims settlement, auditing, legal consultation, private notary and international arbitration. <br> Access our services across the globe, as they are covered in 192 countries.</p>
+          <!-- <p class="txtColorP px-4">Access our services across the globe, as they are covered in 192 countries.</p> -->
         </div>
 
         <div class="col-sm-4 py-4 bgCol">
@@ -32,10 +35,11 @@
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <h3 class="carousel-item-Head">ADAM FINANCE</h3>
+                    <h4 class="carousel-item-Head">ADAM FINANCE</h4>
                     <form action="/action_page.php">
                         <!-- <label for="sel1" class="form-label">Select your type</label> -->
                         <select class="form-select" id="sel1" name="sellist1">
+                         <option>Select your employee type</option>
                           <option>Employee</option>
                           <option>Agent</option>
                           <option>Partner</option>
@@ -43,21 +47,24 @@
                         </select>
 
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Your Email">
+                            <input type="text" class="form-control" placeholder="User name">
                             <span class="input-group-text">@</span>
                         </div>
 
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Your Email">
+                            <input type="password" class="form-control" placeholder="Password">
                             <span class="input-group-text">**</span>
                         </div>
 
-                        <br>
-                    <table width="100%">
-                        <tr>
-                            <td align="right">SUBMIT</td>
-                        </tr>
-                    </table>
+                        <div class="submitButton ">
+                            <table width="100%">
+                                <tr>
+                                    <td align="right"><div class="sbButton" data-bs-toggle="modal" data-bs-target="#myModal">SUBMIT</div></td>
+                                </tr>
+                            </table>
+                        </div>
+
+
                   </div>
                   <div class="carousel-item">
                     <h3>Carousel Example</h3>
@@ -79,5 +86,46 @@
               </div>
         </div>
       </div>
+
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <!-- <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div> -->
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+         <table width="100%">
+            <tr>
+                <td align="center">
+                    <img src="D:/b2b/images/alertClose.png" >
+                    <h1>
+                        Oops...
+                    </h1>
+                    <h2>Login credentials are wrong</h2><br>
+                </td>
+            </tr>
+         </table>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+  
+        <!-- Modal footer -->
+
+  
+      </div>
+    </div>
+  </div>
+  
+  
+
 </body>
 </html>

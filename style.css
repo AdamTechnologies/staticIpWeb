@@ -23,12 +23,12 @@
     color: white;
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 120px;
+    font-size: 80px;
     /* border-bottom: 1px solid rgb(126, 0, 180); */
     /* margin-top: 50px; */
 }
 .txtColorP{
-    color: rgb(254, 255, 223);
+    color: rgb(255, 255, 255);
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     margin-top: 0px;
@@ -42,7 +42,16 @@
 }
 
 .subHead2{
-    font-size: 100px;
+    font-size: 90px;
+    color: rgb(254, 255, 223);
+
+}
+.subHead3{
+    font-size: 90px;
+    color: rgb(254, 255, 223);
+
+}.subHead4{
+    font-size: 90px;
     color: rgb(254, 255, 223);
 
 }
@@ -53,13 +62,48 @@
 }
 .input-group{
     margin-top: 4px !important;
+    opacity: 0.9;
 }
-.carousel-item-Head{
+.carousel-item-Head {
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     margin-bottom: 12px !important;
+    display: inline-block; /* Set display to inline-block */
+    border: 1px solid rgb(254, 255, 223);
+    border-radius: 4px;
+    background-color: rgb(254, 255, 223);
+    width: auto; /* Auto width based on the text */
+    padding: 4px 8px; /* Optional padding for better spacing */
+    color: rgb(68, 68, 68);
 }
+.submitButton{
+    margin-top: 12px;    
+    display: inline-block;
+    border: 1px solid rgb(254, 255, 223);
+    border-radius: 4px;
+    width: auto; /* Auto width based on the text */
+    padding: 4px 8px;
+    color: rgb(254, 255, 223);
+    margin-left: 70%;
+}
+.form-select{
+    opacity: 0.9;
+
+}
+
 .slogan{
     color:'#fefede' !important;
+}
+
+.sbButton{
+    cursor: pointer;
+    transition: font-size 0.3s;
+    
+}
+
+.sbButton:hover{
+    
+    font-size: 20px;
+  
 }
