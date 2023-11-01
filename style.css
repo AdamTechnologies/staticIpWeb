@@ -51,10 +51,14 @@
     border-radius: 50%;
     height: 400px;
 }
+.input-group{
+    margin-top: 4px !important;
+}
 .carousel-item-Head{
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 12px !important;
 }
 .slogan{
     color:'#fefede' !important;
