@@ -133,3 +133,23 @@
     font-size: 20px;
   
 }
+
+@media only screen and (max-width: 600px) {
+    .txtColor {
+      font-size: 35px !important;
+    }
+    .subHead{
+        margin-top: -20px;
+    }
+    .subHead2{
+      font-size: 35px !important;
+    }
+    .txtColorP{
+        font-size: 14px;
+        /* padding-right: 1vw; */
+    }
+
+    .bgCol{
+        margin-top: -20px;
+    }
+  }
